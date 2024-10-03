@@ -1,0 +1,21 @@
+@media (max-width: 960px){
+    .nav-menus{
+        display: none;
+    }
+    .bar i{
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 530px){
+    .logo a h2{
+        font-size: 20px;
+       }
+}
+
+@media (max-width: 480px){
+   /* .logo a h2{
+    font-size: 20px;
+   } */
+}

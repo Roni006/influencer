@@ -285,6 +285,7 @@ nav{
 .footer-section{
     background-color: var(--footer-bg);
     margin-top: 90px;
+    overflow: hidden;
 }
 .footer-content{
     text-align: center;

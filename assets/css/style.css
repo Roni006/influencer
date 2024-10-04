@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
 }
 .bar i{
     font-size: 25px;
@@ -82,6 +82,7 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
     display: none;
     visibility: hidden;
+    margin-right: 20px;
 }
 .logo a{ 
     color: var(--nav-menus-color);
@@ -120,14 +121,14 @@ nav{
 .logo-row{
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* justify-content: center; */
-    gap: 50px;
+    justify-content: center; 
+    gap: 20px;
 }
 
 .logo1 { 
     box-shadow:var(--logo-shadow);
     padding: 25px 35px;
+    border-radius: 20px 0px 20px 0px;
     cursor: pointer;
     opacity: 0.6;
     transition: 0.2s;
@@ -139,6 +140,56 @@ nav{
     opacity: 1;
 }
 /*LOGO SECTION END */
+
+/*HERO SECTION START */
+.hero-section{
+    padding: 90px 0;
+}
+.hero-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title h1 {
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+.hero-text p{
+    width: 505px;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+.hero-btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--nav-menus-hover-color);
+    padding: 10px 15px 10px 25px;
+    border-radius: 40px;
+    margin-top: 16px;
+    display: inline-block;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;  
+}
+.hero-btn .hero-svg{
+    margin-left: 8px;
+}
+.hero-right{
+    position: relative; 
+}
+.hero-right .hero-img{
+    z-index: 999;
+}
+.shape {
+    position: absolute;
+    top: -45px;
+    right: -15px;
+    z-index: 99;
+    
+}
+/*HERO SECTION END */
 
 /* SECTION START */
 /* SECTION END */

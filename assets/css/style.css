@@ -16,6 +16,10 @@ VERSION: 1.0.0
     --nav-menus-hover-color: #E02C6D;
     --bar-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
     --logo-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    --collection-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    --star-color: #FB8200;
+
+
 }
 
 /* ESSENTIL SET UP  */
@@ -26,6 +30,7 @@ VERSION: 1.0.0
 }
 body{
     font-family: var(--global-fonts);
+    margin-bottom: 300px;
 }
 
 h1{
@@ -114,32 +119,6 @@ nav{
 }
 /*HEADER SECTION END */
 
-/*LOGO SECTION START */
-.logo-section{
-    padding: 90px 0;
-}
-.logo-row{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    gap: 20px;
-}
-
-.logo1 { 
-    box-shadow:var(--logo-shadow);
-    padding: 25px 35px;
-    border-radius: 20px 0px 20px 0px;
-    cursor: pointer;
-    opacity: 0.6;
-    transition: 0.2s;
-}
-.logo1:hover { 
-    box-shadow:var(--bar-shadow);
-    padding: 25px 35px;
-    cursor: pointer;
-    opacity: 1;
-}
-/*LOGO SECTION END */
 
 /*HERO SECTION START */
 .hero-section{
@@ -191,5 +170,114 @@ nav{
 }
 /*HERO SECTION END */
 
+
+/*LOGO SECTION START */
+.logo-section{
+    padding-top: 90px;
+}
+.logo-row{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.logo1 { 
+    box-shadow:var(--logo-shadow);
+    padding: 25px 35px;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.logo1:hover { 
+    box-shadow:var(--bar-shadow);
+    padding: 25px 35px;
+    cursor: pointer;
+    opacity: 1;
+}
+/*LOGO SECTION END */
+
+
+
+/*COLLECTION SECTION START */
+.collection-section{
+    padding-top: 90px;
+    overflow: hidden;
+}
+.collection-title h3{
+    text-align: center;
+}
+.collection-row{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+.collection-box { 
+    box-shadow: var(--collection-box-shadow); 
+    width: 330px;
+    border-radius: 5px;
+    padding: 18px 15px;
+}
+.col-title h3{
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+}
+.col-price h4{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.col-rating{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.col-rating .star{
+    color: var(--star-color);
+}
+.col-text p{
+    font-size: 14px;
+    font-weight: 500;
+}
+/*COLLECTION SECTION END */
+
+
+/*FEATURE SECTION START */
+.feature-section{
+    padding-top: 90px ;
+}
+.feature-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.feature-content h2{
+    margin-bottom: 16px; 
+}
+.feature-text p{
+    padding: 0 195px 0 0;
+}
+.feature-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--white-color);
+    background-color: var(--nav-menus-hover-color);
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.feature-btn{
+    display: flex;
+    align-items: center; 
+}
+.feature-btn .f-btn{
+    margin-left: 8px;
+}
+/*FEATURE SECTION END */
 /* SECTION START */
 /* SECTION END */

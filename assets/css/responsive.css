@@ -1,3 +1,10 @@
+@media (max-width: 1050px){
+    .logo-row{
+        display: flex; 
+        flex-wrap: wrap; 
+        /* gap: 40px; */
+    }
+}
 @media (max-width: 960px){
     .nav-menus{
         display: none;
